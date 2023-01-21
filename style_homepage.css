@@ -56,9 +56,8 @@ ul{
     width: 200px;
     background-color: rgba(10, 10, 10, 0.73);
     color: rgb(15, 15, 15);
-    opacity: 0.1;
     font-size: 24px;
-    opacity: 0.6;
+    opacity: 1.0;
 }
 li{
     display: inline-block;
@@ -295,9 +294,6 @@ ol{
   box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
 
 }
-
-
-
 
 
 

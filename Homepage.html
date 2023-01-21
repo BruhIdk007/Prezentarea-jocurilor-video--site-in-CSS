@@ -1,12 +1,32 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="style_homepage.css">  
+        <link rel="stylesheet" type="text/css" href="style_homepage.css">
+        <script src="jquery-3.6.3.js"></script>  
     <title>
         Prezentarea jocurilor video
     </title>
     </head>
     <body>
+        <div class="center_wave">
+            <p color="white">Se incarca</p>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <script>
+                $(window).on("wave",function()
+                {
+                    $(".center_wave").fadeOut("slow");
+                });
+                </script>
+          </div>
          <div class="roblox">
         <h2>
             Jocurile video- o aplicatie deosebita a informaticii
